@@ -1,0 +1,11 @@
+# Eclipse
+bin/
+tmp
+.classpath
+.project
+.settings
+.metadata
+.loadpath
+
+# Intellij
+.idea
