@@ -3,8 +3,8 @@ public class Duck implements Animal{
 
 	@Override
 	public void combat() {
-		Logger.getInstance().warning("I'm using Peck! BEWARE!");
-		
+		//same utilization like the method fight
+		Logger.getInstance().warning("I'm using Peck! YOUSK2!");
 	}
 
 }

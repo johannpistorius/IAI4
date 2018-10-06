@@ -1,6 +1,5 @@
 
 public abstract class CharacterDecorator extends Character {
-	
 	protected Character c;
 	
 	public CharacterDecorator(Character c) {

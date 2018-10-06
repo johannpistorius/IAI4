@@ -1,8 +1,7 @@
 
 public class Logger {
 	private static Logger logger;
-	private Logger() {
-	}
+
 	public static Logger getInstance() {
 		if(logger == null) {
 			logger = new Logger();
@@ -13,7 +12,8 @@ public class Logger {
 	public void info(String message) {
 		System.out.println("info: "+message);
 	}
+	//Utilization of error to print message in red
 	public void warning(String message) {
-		System.out.println("warning: "+message);
+		System.err.println("warning: "+message);
 	}
 }
